@@ -1,5 +1,5 @@
 ---
-    - hosts: linuxlocals
+    - hosts: linuxservers
       become: true
       tasks:
       - name: Create multiple directories
