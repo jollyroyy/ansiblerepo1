@@ -5,6 +5,6 @@
       - name: Create multiple directories
         file: path={{item}} state=directory
         with_items:
-            - '/home/user8/v1'
-            - '/home/user8/vn'
-            - '/home/user8/v3'
+            - '/home/user8/v61'
+            - '/home/user8/vn67'
+            - '/home/user8/v34'
