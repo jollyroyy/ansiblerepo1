@@ -1,0 +1,10 @@
+---
+    - hosts: linuxlocals
+      become: true
+      tasks:
+      - name: Create multiple directories
+        file: path={{item}} state=directory
+        with_items:
+            - '/home/user8/v1'
+            - '/home/user8/vn'
+            - '/home/user8/v3'
